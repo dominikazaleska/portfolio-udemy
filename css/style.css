@@ -1,0 +1,76 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size: cover;
+}
+
+h2 {
+	color: red;
+}
+
+/*h2 + p:hover {
+	color: #7A1420;
+	text-align: center;
+	border: 5px solid rgba(245, 163, 173, 0.5);
+	cursor: pointer;
+}*/
+
+p {
+	color: #7A1420;
+	text-align: center;
+	border: 5px solid rgba(245, 163, 173, 0.5);
+	cursor: pointer;
+}
+
+/*p {
+	color: pink !important;
+}*/
+
+p {
+/*	text-decoration: underline;*/
+/*	text-decoration: line-through;
+	text-transform: uppercase;
+	text-transform: lowercase;*/
+	line-height: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: 'Poiret One', cursive;
+}
+
+img {
+	float: right;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext:first-child {
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 0, 255, 0.2);
+}
+
+#div2 {
+	background: rgba(255, 0, 0, 0.2);
+}
